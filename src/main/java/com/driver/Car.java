@@ -50,10 +50,6 @@ public class Car extends Vehicle {
         return seats;
     }
 
-    public Car(String name, boolean isManual) {
-        super(name);
-        this.isManual=isManual;
-    }
 
     public void changeGear(int newGear){
         this.currentGear=newGear;
